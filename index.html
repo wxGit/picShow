@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>picShow示例</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div id="wrapper">
+	<p style="font-size:14px; color:red; margin-bottom:4px;">批次号：AI20151124005</p>
+	<div class="wrapper_section">
+		<div class="big_pic" id="big_pic">
+			<!-- <img src="img/test_image.jpg" width="650px" /> -->
+		</div>
+		<div class="controls" id="controls">
+			<div class="controlCenter">
+				<ul class="controlBar1">
+					<li id="zoom_in" title="放大">+</li>
+					<li id="zoom_out" title="缩小">-</li>
+					<li id="zoom_zero" title="原图大小">[1:<span>1</span>]</li>
+				</ul>
+				<ul class="controlBar2">
+					<li id="to_first" title="首页"><<</li>
+					<li id="prev" title="上一页"><</li>
+					<li id="page_status"><span>1</span>/<span></span></li>
+					<li id="next" title="下一页">></li>
+					<li id="to_last" title="尾页">>></li>
+				</ul>
+				<ul class="controlBar3">
+					<li id="rotate_left" title="左旋转90">左旋</li>
+					<li id="rotate_right" title="右旋转90">右旋</li>
+					<li id="to_any"><input type="text" value="" /><span title="去往">Go</span></li>
+					<li id="remark" title="添加备注开关">关</li>
+					<!-- <li id="zoom_fit" title="全屏">全局</li> -->
+				</ul>
+			</div>
+		</div>
+		<div class="small_pic" id="small_pic">
+		   <div id="small_pic_list">
+				<!-- <img src="img/test_image.jpg" width="50px;" height="50px;">
+				<img src="img/test_image1.jpg" width="50px;" height="50px;">
+				<img src="img/test_image2.jpg" width="50px;" height="50px;">
+				<img src="img/test_image3.jpg" width="50px;" height="50px;">
+				<img src="img/test_image2.jpg" width="50px;" height="50px;">
+				<img src="img/test_image1.jpg" width="50px;" height="50px;">
+				<img src="img/test_image2.jpg" width="50px;" height="50px;">
+				<img src="img/test_image1.jpg" width="50px;" height="50px;">
+				<img src="img/test_image2.jpg" width="50px;" height="50px;">
+				<img src="img/test_image4.jpg" width="50px;" height="50px;"> -->
+		   </div>
+		</div>
+	</div>
+	<div class="wrapper_sidebar">
+		<h4>选择列表</h4>
+		<ul id="list">
+			<!-- <li class="active">原件发票<li>
+			<li>发票清单<li>
+			<li>处方签<li>
+			<li>而我为辅<li>
+			<li>千万得<li>
+			<li>瓦房店并未呢<li>
+			<li>是法让我<li>
+			<li>天涯海角<li>
+			<li>我能多方位<li> -->
+		</ul>
+
+		<h4>备注</h4>
+		<div class="remark">
+			<textarea></textarea>
+		</div>
+		<div class="btns1">
+			<button>保存</button>
+			<button>替换</button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/picShow.js"></script>
+<!-- <script type="text/javascript" src="js/picShow1.js"></script> -->
+</body>
+</html>
